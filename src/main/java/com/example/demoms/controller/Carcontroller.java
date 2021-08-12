@@ -23,6 +23,7 @@ public class Carcontroller {
 //return c1;
        return carrepository.findAll();
     }
+    //added a code in 26
 
     @PostMapping(value = "/car")
     public Car addnewcar(@RequestBody Car c1){
