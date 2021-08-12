@@ -19,7 +19,7 @@ public class Carcontroller {
   //     Car c1= new Car();
 //c1.setName("vinotha's car");
 //c1.setID(123);
-//added a code
+//deleted this code
 //return c1;
        return carrepository.findAll();
     }
